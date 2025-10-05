@@ -1,0 +1,137 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Weak_ayas",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_debug/Weak_ayas",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Release Weak_ayas",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_release/Weak_ayas",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "Debug final_main",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_debug/final_main",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Release final_main",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_release/final_main",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "Debug Weak_ayas_server",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_debug/Weak_ayas_server",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Release Weak_ayas_server",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_release/Weak_ayas_server",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "Debug Weak_ayas_client",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_debug/Weak_ayas_client",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Release Weak_ayas_client",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_release/Weak_ayas_client",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}

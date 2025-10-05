@@ -1,0 +1,94 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build TCPClient Main",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-DDEBUG_MODE",
+                "-pthread",
+                "TCPServer.cpp",
+                "EpollWorker.cpp",
+                "ThreadPool.cpp",
+                "TCPClient.cpp",
+                "TCPClient_main.cpp",
+                "SQLManager.cpp",
+                "sql_driver.cpp",
+                "-I/usr/include/cppconn",
+                "-L/usr/lib",
+                "-lmysqlcppconn",
+                "-o",
+                "TCPClient_main"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /usr/bin/g++"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /usr/bin/g++"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /usr/bin/g++"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+# CMake build
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 可執行檔 / 編譯輸出
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.lib
+
+# 日誌與暫存
+*.log
+*.tmp
